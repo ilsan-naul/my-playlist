@@ -3,17 +3,55 @@
 <head>
   <title>플레이리스트_폴킴</title>
   <meta charset="utf-8">
+
+  <style>
+    a {
+      color: green;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 1px solid;
+      margin:0;
+      padding:20px;
+    }
+    #grid ul{
+      padding-left: 33px;
+      border-right: 1px solid;
+      width: 135px;
+      margin:0;
+      padding:15px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #article{
+      padding-left: 25px;
+    }
+  </style>
 </head>
 <body>
-  <h1><a href="index.html">내 플레이리스트</a></h1>
-  <h2>폴킴</h2>
-  인물사전
-  <p style="margin-top:10px";> <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%ED%8F%B4%ED%82%B4&oquery=%ED%8F%B4%ED%82%B4+%EB%A7%88%EC%9D%8C&tqi=Um70Mlp0JXossOXzkG4ssssssdh-489271" target="_blank" title="폴킴 검색결과">폴킴</a></p>
-  <img src="폴킴_마음.jpg" width="400px">
-
-  <ul>
-    <li><a href="폴킴_너를 만나.html">너를 만나</li>
-  </ul>
-
-</body>
+  <h1><a href="0.index.html">내 플레이리스트</a></h1>
+  <div id="grid">
+    <ul>
+      <li><a href="폴킴_마음.html">마음</a></li>
+      <li><a href="폴킴_너를 만나.html">너를 만나</a></li>
+      <li><a href="폴킴_초록빛.html">초록빛</a></li>
+      <li><a href="폴킴_모든 날 모든 순간.html">모든 날 모든 순간</a></li>
+    </ul>
+    <div id="article">
+    <h2>폴킴 마음</h2>
+    <p>
+        폴킴의 마음은 나온지 1달이 되어가는(2020-01-10 기준) 따끈따끈한 신곡으로, 지금까지의 폴킴의 노래와는 다른 점을 보여준다.
+        폴킴은 너를 만나, 모든 날 모든 순간, 초록빛 등의 여러가지의 히트곡을 보유하고 있는 현 세대의 독보적인 아티스트로,
+        이러한 히트곡의 공통점이자 다른 곡들과의 차이점은 바로 최고음이 높지 않다는 점이다.
+        현재 음악계에서 히트곡들을 무작위로 뽑아 보았을 때 열에 일곱은 3옥타브가 넘어가는 고음을 한번 씩은 포함하고 있는데, 이러한 상황에서
+        이러한 폴킴의 히트곡들은 고음이 어려운 남성들에게 있어서 최후의 보루로서 역할을 해준다.
+        하지만, 폴킴은 고음을 내지 못했던 것이 아니었다.
+        폴킴의 마음이라는 곡은 최고음 2옥타브 라샵의 고음을 가지고 있으며, 이 때의 폴킴의 목소리는 지금까지와는 다른 느낌을 준다.
+      </p>
+    </div>
+  </div>
 </html>
